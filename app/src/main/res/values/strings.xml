@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Camara</string>
+    <string name="shot">Disparar</string>
+    <string name="Description_foto">Muestra la foto tras tomarla</string>
+</resources>
