@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private String leerFile(String file){
         String textoCompleto="";
         try {
-            InputStreamReader fichero = new InputStreamReader(openFileInput(NOMBRE));
+            InputStreamReader fichero = new InputStreamReader(openFileInput(file));
             BufferedReader lecturaArchivo = new BufferedReader(fichero);
             String linea = lecturaArchivo.readLine();
             while (linea != null){
